@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CalculadoraPOO</title>
+</head>
+
+<body>
+<script src="calculadora.js"></script>
+<label>DIGITA UN PRIMER NUMERO</label><input type="number" id="n1" ><br>
+<label>DIGITA UN SEGUNDO NUMERO</label><input type="number" id="n2" ><br>
+
+
+<button id="suma">SUMA</button>
+<button id="resta">RESTA</button>
+<button id="multiplicacion">MULTIPLICACION</button>
+<button id="division">DIVISION</button>
+<button id="calcular">CALCULAR</button><br>
+
+
+<output id="r"></output> 
+<script>
+    const calculadora1 = new Calculadora(n1,n2)
+   
+    console.log(calculadora1)
+    console.log(calculadora1.n1)
+    console.log(calculadora1.n2)
+   
+
+</script>
+
+</body>
+</html>
